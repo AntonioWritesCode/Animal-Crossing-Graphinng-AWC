@@ -1,0 +1,36 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 130px;
+	text-decoration: none;
+  background: url("Assets/ACPlank.jpg") no-repeat center;
+  background-size: 120px;
+  text-decoration-color: white;
+}
+
+/* Change colors */
+li a:hover{
+	background-color: white;
+}
+
+body{
+  background: url("Assets/AC.jpg") no-repeat center;
+  background-size: auto;
+}
+
+.HeaderOne{
+  text-align: center;
+  border-style: solid;
+}
